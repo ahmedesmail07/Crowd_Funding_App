@@ -1,0 +1,7 @@
+create database fundrise;
+
+create user fundriseuser with password '123456';
+
+alter user fundriseuser with superuser;
+
+grant all privileges on database fundrise to fundriseuser;
