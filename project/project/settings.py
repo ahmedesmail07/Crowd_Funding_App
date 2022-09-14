@@ -39,12 +39,7 @@ AUTHENTICATION_BACKENDS = [
     
 ]
 INSTALLED_APPS = [
-    'users',
-    'home',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'crispy_forms',
+   
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -153,11 +148,11 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
-LOGIN_URL_REDIRECT = 'index'
-ACCOUNT_EMAIL_REQUIRED = True
+# CRISPY_TEMPLATE_PACK = 'bootstrap4'
+# LOGIN_URL_REDIRECT = 'index'
+# ACCOUNT_EMAIL_REQUIRED = True
+# # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
